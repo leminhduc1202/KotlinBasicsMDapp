@@ -23,9 +23,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Random Text"
+            android:singleLine="true"
+            android:text="@string/random_text"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"/>
 
 
     </io.armcha.elasticview.ElasticView>

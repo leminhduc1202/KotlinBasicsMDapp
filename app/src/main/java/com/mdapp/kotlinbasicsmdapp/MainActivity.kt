@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.imageElasticView.setOnClickListener {
             Snackbar.make(binding.rlLayout, "CardView tapped!", 2000).show()
+            binding.tvMain.isSelected = true
         }
 
         setUpTabBar()

@@ -1,18 +1,5 @@
 <resources>
     <string name="app_name">KotlinBasicsMDapp</string>
-    <string name="title_breaking_news">Breaking News</string>
-    <string name="title_search_news">Search News</string>
-    <string name="title_bookmarks">Bookmarks</string>
-    <string name="breaking">Breaking</string>
-    <string name="search">Search</string>
-    <string name="bookmarks">Bookmarks</string>
-    <string name="could_not_refresh">Could not refresh: %s</string>
-    <string name="could_not_load_search_results">Could not load search results: %s</string>
-    <string name="unknown_error_occurred">An unknown error occurred</string>
-    <string name="retry">Retry</string>
-    <string name="refresh">Refresh</string>
-    <string name="no_bookmarks">No bookmarks</string>
-    <string name="no_results_found">No results found</string>
-    <string name="search_instructions">Tap the magnifying glass to start searching</string>
-    <string name="delete_all_bookmarks">Delete all bookmarks</string>
+
+    <string name="random_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
 </resources>
