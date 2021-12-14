@@ -25,6 +25,8 @@ class MainActivity : AppCompatActivity() {
 
         binding.imageElasticView.setOnClickListener {
             Snackbar.make(binding.rlLayout, "CardView tapped!", 2000).show()
+        }
+        binding.buttonMarquee.setOnClickListener {
             binding.tvMain.isSelected = true
         }
 
