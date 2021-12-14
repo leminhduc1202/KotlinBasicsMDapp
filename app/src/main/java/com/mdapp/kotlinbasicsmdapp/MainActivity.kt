@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(binding.rlLayout, "CardView tapped!", 2000).show()
         }
         binding.buttonMarquee.setOnClickListener {
+            binding.tvMain.text = getString(R.string.random_text)
             binding.tvMain.isSelected = true
         }
 
