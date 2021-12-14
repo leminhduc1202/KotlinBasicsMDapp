@@ -2,11 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C51162"
-    tools:context=".MainActivity"
-    android:id="@+id/rl_layout">
+    android:background="@drawable/header_side"
+    tools:context=".MainActivity">
 
 
     <io.armcha.elasticview.ElasticView
@@ -19,6 +19,7 @@
         app:flexibility="5">
 
         <TextView
+            android:id="@+id/tv_main"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -49,8 +50,15 @@
             android:text="Random Text"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
-
-
     </io.armcha.elasticview.ElasticView>
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:id="@+id/bottom_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:fadingEdge="horizontal"
+        app:cnb_menuResource="@menu/nav_menu" />
 
 </RelativeLayout>
