@@ -1,4 +1,4 @@
-package com.mdapp.kotlinbasicsmdapp
+package com.mdapp.kotlinbasicsmdapp.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

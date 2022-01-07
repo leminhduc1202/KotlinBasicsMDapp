@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import com.google.android.material.snackbar.Snackbar
 import com.mdapp.kotlinbasicsmdapp.databinding.ActivityMainBinding
+import com.mdapp.kotlinbasicsmdapp.home.HomeActivity
 
 class MainActivity : AppCompatActivity() {
 
