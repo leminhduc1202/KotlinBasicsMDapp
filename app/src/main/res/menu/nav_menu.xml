@@ -5,25 +5,29 @@
         android:id="@+id/nav_near"
         android:icon="@drawable/near_m_icon"
         android:title="Nearby"
-        app:cnb_iconColor="#2196F3"
-        />
+        app:cnb_iconColor="#2196F3" />
 
     <item
         android:id="@+id/nav_new_chat"
         android:icon="@drawable/chat_icon"
         android:title="Chat"
-        app:cnb_iconColor="#F44336"/>
+        app:cnb_iconColor="#F44336" />
 
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:cnb_iconColor="#64DD17" />
     <item
         android:id="@+id/nav_profile"
         android:icon="@drawable/person_icon"
         android:title="Profile"
-        app:cnb_iconColor="#4CAF50"/>
+        app:cnb_iconColor="#4CAF50" />
 
     <item
         android:id="@+id/nav_settings"
         android:icon="@drawable/settings_icon"
         android:title="Settings"
-        app:cnb_iconColor="#FF9800"/>
+        app:cnb_iconColor="#FF9800" />
 
 </menu>

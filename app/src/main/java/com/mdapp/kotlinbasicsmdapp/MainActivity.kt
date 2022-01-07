@@ -1,5 +1,6 @@
 package com.mdapp.kotlinbasicsmdapp
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -47,6 +48,7 @@ class MainActivity : AppCompatActivity() {
                     binding.tvMain.text = "Settings"
                     binding.bottomNavBar.dismissBadge(R.id.nav_settings)
                 }
+                R.id.nav_home -> startActivity(Intent(this, HomeActivity::class.java))
 
             }
         }
